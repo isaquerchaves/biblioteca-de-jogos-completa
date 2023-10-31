@@ -11,9 +11,26 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 47, 47, 47;
+    --background-end-rgb: 47, 47, 47;
   }
+}
+h1{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6rem 1.2rem;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
 
 body {
