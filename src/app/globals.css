@@ -19,6 +19,10 @@ h1{
   font-size: 1.6rem;
   font-weight: bold;
 }
+h2{
+  font-size: 1.125rem;
+  font-weight: bold;
+}
 
 button {
   border-radius: 8px;
@@ -46,7 +50,7 @@ body {
 }
 form {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   gap: 2rem;
 }
 
